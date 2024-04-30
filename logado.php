@@ -1,7 +1,8 @@
 <?php 
     include 'core/permissao.php';
-?>
 
+    $nome = $_SESSION['usuario'];
+?>
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
@@ -10,7 +11,7 @@
     <title>Logado</title>
 </head>
 <body>
-    <h1>Logado com sucesso</h1>
-    <button>Sair</button>
+    <h1>Logado com sucesso : <?= $nome ?></h1>
+    <a href="core/logout.php" >Sair</a>
 </body>
 </html>
