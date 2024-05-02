@@ -1,5 +1,4 @@
 <?php
-
 session_start();
 
     // verifica se os dados vem em branco ou sem preencher os campos
@@ -18,7 +17,6 @@ session_start();
             header('Location: http://localhost/www/projeto1/index.php?erro=true');
         }
     }
-
     /*** Valida 2
         session_start();
 

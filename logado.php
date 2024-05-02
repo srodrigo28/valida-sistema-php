@@ -1,6 +1,5 @@
 <?php 
     include 'core/permissao.php';
-
     $nome = $_SESSION['usuario'];
 ?>
 <!DOCTYPE html>
@@ -12,6 +11,7 @@
 </head>
 <body>
     <h1>Logado com sucesso : <?= $nome ?></h1>
-    <a href="core/logout.php" >Sair</a>
+    <a href="core/logout.php">Sair</a>
+    <a href="./gestor.php">Gerencie Gestores</a>
 </body>
 </html>
